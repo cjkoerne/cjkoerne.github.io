@@ -1,6 +1,7 @@
 /* first one*/
 nav ul{
     list-style: none;
+    display: flex;
 }
 
 /* second one*/
