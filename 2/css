@@ -1,9 +1,7 @@
 /* first one*/
 nav ul{
     display: flex;
-    align-items: center;
     height: 80px;
-    /* justify-content: space-between;   */
     list-style: none;
 }
 
