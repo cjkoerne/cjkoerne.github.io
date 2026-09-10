@@ -1,13 +1,11 @@
 /* first one*/
 nav ul{
-    display: flex;
-    height: 80px;
     list-style: none;
 }
 
 /* second one*/
 nav ul{
-    background-color: pink;
+    background-color: red;
 
 }
  /* 3a   
