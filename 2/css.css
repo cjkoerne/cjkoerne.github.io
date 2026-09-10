@@ -38,17 +38,11 @@ nav ul li{
     padding-right: 110px;
  }
 
-
-
- .footer-bottom-right{
-    align-self: flex-end;
-    margin-bottom: 0;
-    text-align: right;
-    max-width: 400px;
+ .footer{
+    alight-items: padding-right
  }
  
-
- /*img{
+ img{
     width: 400px;
     height: 400px;
- }*/
+ }
