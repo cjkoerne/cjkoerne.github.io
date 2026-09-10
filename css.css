@@ -5,7 +5,7 @@ header{
     font-size: large;
 }
 header h1{
-    color: pink;
+    color: purple;
     font-size: 40px;
 }
 /* 2*/
@@ -31,5 +31,5 @@ main{
  footer{
    display: flex;
    justify-content: flex-end;
-     color: red;
+     color: blue;
 }
