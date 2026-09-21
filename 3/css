@@ -1,0 +1,50 @@
+header{
+    background-color: aquamarine;
+    color: blue;
+    padding: 25px;
+    text-align: center;
+}
+
+.topic-description p{
+    font-family: 'Comfortaa', cursive;
+}
+
+.topic-description{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
+
+.app-description{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.app-description ul{
+    list-style-type: disc;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: large;
+    font-family: 'Comfortaa', cursive;
+}
+
+ul li{
+    margin-bottom: 0;
+    line-height: .85;
+    padding: 0;
+}
+
+h4{
+    font-size: 2rem;
+    padding-bottom: 0;
+}
+
+footer{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
