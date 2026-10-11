@@ -15,9 +15,8 @@ async function loadSnowboardingData(){
         document.querySelector("#heroTitle").textContent = data.hero.headline;
         document.querySelector("#heroDesc").textContent = data.hero.description;
 
-        const changeImg = data.hero.image.replace("../img/", "img/");
+        const changeImg = data.hero.image;
         document.querySelector("#heroSection").style.setProperty("--hero-img", `url("${changeImg}")`);
-
         document.querySelector("#sec1Title").textContent = data.sections.overview.title;
         document.querySelector("#sec1Subtitle").textContent = data.sections.overview.subtitle;
 
