@@ -56,3 +56,47 @@ main {
     object-fit: cover;
     border-radius: 8px;
 }
+
+
+/* Activity Information page */
+#static-activities .activity-card {
+    min-width: 0;
+    overflow: hidden;
+}
+
+#static-activities .activity-card img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* Keep activity cards evenly spaced */
+#static-activities {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+/* Tablets */
+@media (max-width: 850px) {
+    #static-activities {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Phones */
+@media (max-width: 550px) {
+    #static-activities {
+        grid-template-columns: 1fr;
+    }
+
+    #static-activities .activity-card img {
+        height: 220px;
+    }
+}
+
