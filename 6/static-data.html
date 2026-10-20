@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Caroline Koerner">
+  <title>Activity Information | Outdoor Vacation Spots</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="static-data">
+  <header class="site-header">
+    <h1>Activity Information</h1>
+    <p>Browse activity descriptions and recommended destinations.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="two-step.html">Explore Activities</a>
+      <a href="static-data.html" aria-current="page">Activity Information</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>All Activities</h2>
+      <p>Information on this page is loaded from the external JSON data file.</p>
+      <p id="error-message" class="error-message" role="alert"></p>
+      <div id="static-activities" class="activity-grid" aria-live="polite">
+        <p>Loading activity information...</p>
+      </div>
+    </section>
+  </main>
+  <footer><p>Outdoor Vacation Spots and Activities</p></footer>
+</body>
+</html>
