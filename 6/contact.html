@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Caroline Koerner">
+  <title>Contact | Outdoor Vacation Spots</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <h1>Contact Us</h1>
+    <p>Tell us what kinds of outdoor activities interest you.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="two-step.html">Explore Activities</a>
+      <a href="static-data.html">Activity Information</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>Get in Touch</h2>
+      <p>This form demonstrates collecting a visitor's interests. It does not send information to a server.</p>
+      <form id="contact-form">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-field">
+          <label for="interest">Favorite outdoor environment</label>
+          <select id="interest" name="interest" required>
+            <option value="">Choose one</option>
+            <option>Beach</option><option>Lake</option><option>Mountains</option><option>Desert</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Message (optional)</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="form-message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer><p>Outdoor Vacation Spots and Activities</p></footer>
+</body>
+</html>
