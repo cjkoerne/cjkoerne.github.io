@@ -1,0 +1,793 @@
+{
+  "site": {
+    "title": "Outdoor Vacation Spots and Activities",
+    "description": "Explore outdoor vacation environments and discover activities, destinations, and useful information.",
+    "mainHomepage": {
+      "title": "Outdoor Vacation Spots and Activities",
+      "subtitle": "Welcome Back. This is where I plan to put the login",
+      "topicDescription": [
+        "Planning outdoor activities can be a headache when there are so many options. Choosing between a ranch getaway, a mountain retreat, a beach vacation, or a lake escape can be overwhelming, especially when each location provides unique experiences, climates, and attractions. My proposed web application aims to help users explore these four outdoor environments in a clear, organized, and interactive way.",
+        "Many planning applications already exist providing people with information about all the places they can visit. For example, these two websites give examples of the great outdoors: National Geographic and Travel And Activities. These websites show a lot of advertisements, which get in the way. I would like to provide information in thoughtout way."
+      ],
+      "referenceLinks": [
+        {
+          "label": "National Geographic",
+          "url": "https://www.nationalgeographic.com/adventure"
+        },
+        {
+          "label": "Travel And Activities",
+          "url": "https://www.travelandleisure.com"
+        }
+      ],
+      "appDescription": [
+        "This is the front page for the 4 locations you can choose to vacation on. They all offer a handfull of activities that are outside. There are manyy activities that you can do to relax and get away from everyday life, like swimming, stargazing, and going to a petting a zoo. There are also activities to choose from that will get your heart racing like cliff jumping, parasailing, and skiing.",
+        "There is an activity for everyone no matter your level of athelticness. The outdoors can be intimidating with a"
+      ],
+      "categoryCards": [
+        {
+          "category": "beach",
+          "title": "Beach",
+          "image": "img/beach3.jpeg",
+          "alt": "Beach",
+          "tagline": "Relax by the water"
+        },
+        {
+          "category": "lake",
+          "title": "Lake",
+          "image": "img/lake3.jpg",
+          "alt": "Lake",
+          "tagline": "Nice inland escape"
+        },
+        {
+          "category": "mountains",
+          "title": "Mountains",
+          "image": "img/mountains2.jpg",
+          "alt": "Mountains",
+          "tagline": "Explore the peaks"
+        },
+        {
+          "category": "desert",
+          "title": "Desert",
+          "image": "img/desert3.jpg",
+          "alt": "Desert",
+          "tagline": "Dry climate"
+        }
+      ],
+      "informationPage": {
+        "heading": "Why should you want to go outside?",
+        "intro": "Going outside can have a lot of health benefits including:",
+        "benefits": [
+          "Boosts Immune System",
+          "Improves Heart Health",
+          "Decreases Stress and Anxiety"
+        ]
+      },
+      "contactPage": {
+        "heading": "Contact Us Page",
+        "intro": "The data we collect on here is just to see what your interests are and how to best contact."
+      },
+      "footer": "Project 2- Outdoor Ideas"
+    }
+  },
+  "categories": [
+    {
+      "id": "beach",
+      "title": "The Beach",
+      "images": [
+        {
+          "src": "img/beach1.jpeg",
+          "alt": "The sun setting on the beach"
+        },
+        {
+          "src": "img/beach7.jpeg",
+          "alt": "Walk way out to a white beach"
+        },
+        {
+          "src": "img/beach5.jpeg",
+          "alt": "Sunrise of the beach"
+        }
+      ],
+      "introduction": "The beach is a great way to get outdoors. Depending on which beach you go to, you can experience sunny weather, while others are cloudy all year round. The some common activities include Swimming, Parasailing, Snorkeling, and Sand Games. These are all best to do at a beach where the sun is shining and the sand is soft. In the United States, States like Florida, Hawaii, and California are all notorious Beach spots as they are warm year round and not only for the summer. Many beaches in the northern parts of the states have colder beaches, but offer what they can in the summer time when the sun is shining. Click which activity you would like to explore and learn more about it and where you can find it.",
+      "activities": [
+        {
+          "id": "swimming",
+          "title": "Swimming",
+          "tagline": "Cool off in the waves and enjoy the sunshine.",
+          "cardImage": "img/Swimming1.jpg",
+          "cardAlt": "Girl swimming."
+        },
+        {
+          "id": "parasailing",
+          "title": "Parasailing",
+          "tagline": "Soar above the ocean with breathtaking views.",
+          "cardImage": "img/Parasailing boat.jpg",
+          "cardAlt": "A boat pulling a parasailing person"
+        },
+        {
+          "id": "snorkeling",
+          "title": "Snorkeling",
+          "tagline": "Explore underwater life and colorful fish.",
+          "cardImage": "img/snorkeling1.jpg",
+          "cardAlt": "Person underwater"
+        },
+        {
+          "id": "sand-games",
+          "title": "Sand Games",
+          "tagline": "Play volleyball, build sandcastles, and other beach games.",
+          "cardImage": "img/sandcastle.jpg",
+          "cardAlt": "A sandcastle"
+        }
+      ]
+    },
+    {
+      "id": "lake",
+      "title": "The Lake",
+      "images": [
+        {
+          "src": "img/lake1.jpeg",
+          "alt": "Marina at the lake"
+        },
+        {
+          "src": "img/lake2.jpg",
+          "alt": "A duck flying over the water"
+        },
+        {
+          "src": "img/lake3.jpg",
+          "alt": "The lake water reflecting the beautiful trees and mountains"
+        }
+      ],
+      "introduction": "The lake is a great ways to get outdoors and enjoy nature. Depending on which lake you visit and the season, you might be able to experience a warm sunny day that is perfect for paddleboarding, waterskiing, fishing, or cliff jumping. These activities are best to do at lake with calm water and access to the shore. In the United States, places like Minnesota, Michigan, and the Ozarks are known for their beautiful lakes and nice weather. Many lakes are located in the northern states, and it gets cold, but in the summer these places come alive with the sunshine. Click which activity you would like to explore and learn more about it and where you can find it.",
+      "activities": [
+        {
+          "id": "water-skiing",
+          "title": "Water Skiing",
+          "tagline": "Go quick on the water",
+          "cardImage": "img/waterSki.jpg",
+          "cardAlt": "Guy on water skis."
+        },
+        {
+          "id": "fishing",
+          "title": "Fishing",
+          "tagline": "Cast your reel",
+          "cardImage": "img/fishing3.jpg",
+          "cardAlt": "Little boy fishing on the shore."
+        },
+        {
+          "id": "paddleboarding",
+          "title": "Paddle Board",
+          "tagline": "Glide across the water",
+          "cardImage": "img/paddleBoard3.jpg",
+          "cardAlt": "Girl on a paddle board in the middle of the water."
+        },
+        {
+          "id": "cliff-jumping",
+          "title": "Cliff Jumping",
+          "tagline": "Plunge into the water",
+          "cardImage": "img/cliffjumping2.jpg",
+          "cardAlt": "Guy going into water."
+        }
+      ]
+    },
+    {
+      "id": "mountains",
+      "title": "The Mountains",
+      "images": [
+        {
+          "src": "img/mountains3.jpg",
+          "alt": "Photo of the mountains."
+        },
+        {
+          "src": "img/mountains5.jpg",
+          "alt": "Photo of the mountains."
+        },
+        {
+          "src": "img/mountains4.jpg",
+          "alt": "Photo of the mountains."
+        }
+      ],
+      "introduction": "The mountains are a great way to get outdoors and enjoy fresh air, quiet trails, and breathtaking scenery. Depending on which mountain range you visit and the season, you might experience warm sunny days perfect for mountain biking, hiking, stargazing, or archery, while higher elevations stay cool and crisp year-round. These activities are best in areas with clear trails, open viewpoints, and safe designated spaces for exploring. In the United States, places like Colorado, Montana, and the Appalachian region are known for their beautiful mountain landscapes and ideal outdoor conditions. Many mountain areas can be chilly for much of the year, but in the summer and early fall they come alive with sunshine, wildflowers, and endless opportunities for adventure. Click which activity you would like to explore and learn more about it and where you can find it.",
+      "activities": [
+        {
+          "id": "hiking",
+          "title": "Hiking",
+          "tagline": "Enjoy the surroundings",
+          "cardImage": "img/hiking4.jpg",
+          "cardAlt": "People hiking."
+        },
+        {
+          "id": "stargazing",
+          "title": "Stargazing",
+          "tagline": "Shoot for the stars",
+          "cardImage": "img/stargazing4.jpg",
+          "cardAlt": "Stars."
+        },
+        {
+          "id": "archery",
+          "title": "Archery",
+          "tagline": "Aim for the bullseye",
+          "cardImage": "img/archery4.jpg",
+          "cardAlt": "Archery."
+        },
+        {
+          "id": "mountain-biking",
+          "title": "Mountain Biking",
+          "tagline": "Fly around the hills",
+          "cardImage": "img/biking4.jpg",
+          "cardAlt": "Mountain biking."
+        }
+      ]
+    },
+    {
+      "id": "desert",
+      "title": "The Desert",
+      "images": [
+        {
+          "src": "img/desert4.jpg",
+          "alt": "Desert."
+        },
+        {
+          "src": "img/desert2.jpg",
+          "alt": "Desert."
+        },
+        {
+          "src": "img/desert3.jpg",
+          "alt": "Desert."
+        }
+      ],
+      "introduction": "The desert is a great way to get outdoors and experience warm sunshine, wide open landscapes, and incredible natural formations. Depending on which desert you visit and the season, you might enjoy hot sunny days perfect for ATV riding, rock climbing, exploring canyons, or bird watching, while cooler evenings bring peaceful skies and glowing sunsets. These activities are best in areas with open trails, safe climbing routes, and designated spaces for exploring the unique terrain. In the United States, places like Arizona, Utah, and Nevada are known for their stunning desert scenery and ideal outdoor conditions. Many desert regions can be extremely hot during the day, but in the spring and fall they come alive with comfortable temperatures, colorful rock formations, and endless opportunities for adventure. Click which activity you would like to explore and learn more about it and where you can find it.",
+      "activities": [
+        {
+          "id": "atv",
+          "title": "ATV Rides",
+          "tagline": "Go quick in the sand",
+          "cardImage": "img/atv3.jpg",
+          "cardAlt": "ATV."
+        },
+        {
+          "id": "rock-climbing",
+          "title": "Rock Climbing",
+          "tagline": "Crawl on some rocks",
+          "cardImage": "img/climb1.jpg",
+          "cardAlt": "Rocks"
+        },
+        {
+          "id": "bird-watching",
+          "title": "Bird Watching",
+          "tagline": "Be one with the birds",
+          "cardImage": "img/bird2.jpg",
+          "cardAlt": "Birds."
+        },
+        {
+          "id": "canyons",
+          "title": "Exploring Canyons",
+          "tagline": "beautiful sights",
+          "cardImage": "img/canyon1.jpg",
+          "cardAlt": "Canyon."
+        }
+      ]
+    }
+  ],
+  "activityDetails": [
+    {
+      "id": "swimming",
+      "category": "beach",
+      "title": "Swimming",
+      "images": [
+        {
+          "src": "img/Swimming1.jpg",
+          "alt": "The sun setting on the beach"
+        },
+        {
+          "src": "img/Swimming3.jpg",
+          "alt": "Walk way out to a white beach"
+        },
+        {
+          "src": "img/Swimming2.jpg",
+          "alt": "Sunrise of the beach"
+        }
+      ],
+      "description": "Swimming in the ocean is one of the most favored activities at the beach. On a hot summer day, the salty waves wash over your skin, cooling you down as the warm sun shines above. The sound of crashing waves fills the air while the ocean breeze carries the fresh, salty scent of the sea. Dive beneath the sparkling water, feel the cool current rush past you, and let the waves carry you along. It allows you to go back to work feeling refreshed.",
+      "destinations": [
+        {
+          "name": "Hawaii",
+          "details": "Warm all year and has a tropical vibe. The water is clear and warm. There is good waves to enjoy and even wildlife in the water"
+        },
+        {
+          "name": "California",
+          "details": "The Pacific coast includes colder water."
+        },
+        {
+          "name": "Florida",
+          "details": "White sandy beaches with famously warm water from the Atlantic Ocean. The sun is always shining."
+        }
+      ],
+      "extra": "All of these locations are in the United States and very spread out. California is on the West coast, while Florida is in the South. Hawaii is on its own island in the middle of the pacific. The Northeast of the United States also has beaches, but for some, the weather at them is less than ideal. These places are good to visit year round as they are warm all the time. They are all fairly close to the equator, which gives them good sunny weather most days of the year."
+    },
+    {
+      "id": "parasailing",
+      "category": "beach",
+      "title": "Parasailing",
+      "images": [
+        {
+          "src": "img/parasailing.jpg",
+          "alt": "Two people parasailing with a colorful parachute"
+        },
+        {
+          "src": "img/parasailing2.jpg",
+          "alt": "Person parasailing above the ocean"
+        },
+        {
+          "src": "img/Parasailing boat.jpg",
+          "alt": "Boat with the parasailors behind it"
+        }
+      ],
+      "description": "Parasailing is the perfect beach activity for daredevils and thrill-seekers looking for an adventure. High above the sparkling ocean, the warm summer breeze rushes past you as you soar through the sky. You can see views that are hidden to us on the ground. The air is very powerful up in the air, and behind the boat you feel every lift and pull as the parachute catches the wind. A rush of freedom and adrenaline are found as you glide through the open sky. When you descend back down to the boat, you feel energized with adrenaline and a new perspective.",
+      "destinations": [
+        {
+          "name": "Key West, Florida",
+          "details": "Clear water and breathtaking views from above."
+        },
+        {
+          "name": "Virginia Beach, Virginia",
+          "details": "Boardwalk, palm trees, and lively scenery."
+        },
+        {
+          "name": "Honolulu, Hawaii",
+          "details": "Stunning views of Waikiki and nearby islands."
+        }
+      ],
+      "extra": "Parasailing offers a very different way to experience the beauty of all these places. In Key West, Florida the clear, blue water turns into a beautiful canvas and there are breathtaking views across the horizon. On Virginia Beach in Virginia, you can see all the people on the Boardwalk and beach. In Honolulu, Hawaii, the warm Pacific air takes you well above Waikiki and other nearby islands to enjoy the beauty. Although these places are spread across the United States, they all share warm, sunny weather."
+    },
+    {
+      "id": "snorkeling",
+      "category": "beach",
+      "title": "Snorkeling",
+      "images": [
+        {
+          "src": "img/snorkeling1.jpg",
+          "alt": "Person swimming with flippers under the water"
+        },
+        {
+          "src": "img/snorkeling2.jpg",
+          "alt": "Person floating on the top of the water"
+        },
+        {
+          "src": "img/snorkeling3.jpg",
+          "alt": "Person diving under the water by coral."
+        }
+      ],
+      "description": "Snorkeling is the perfect beach activity for animal lovers who want to see marine life from a whole new perspective. Swim alongside colorful fish, watch sea turtles glide through the water, and discover the fascinating world beneath the waves. It’s almost like visiting an aquarium, except you’re right there in the water with the animals in their natural home. Put on your mask, take a breath, and get ready for an unforgettable underwater adventure!",
+      "destinations": [
+        {
+          "name": "Florida Keys, Florida"
+        },
+        {
+          "name": "Hawaii"
+        },
+        {
+          "name": "Virgin Islands"
+        }
+      ],
+      "extra": "Snorkeling is one of the best way to explore the ocean up close, and each these destinations offer its own unique underwater experience. In Key West, Florida, the clear water and calm waves allow you to experience the vibrant coral reefs and tropical fish. In Hawaii, the water stays warm and you can catch a school of tropical fish, or even a sea turtle. The Caribbean Seas in the Virgin Islands offer colorful sights of starfish, sting rays, and beautiful coral."
+    },
+    {
+      "id": "sand-games",
+      "category": "beach",
+      "title": "Sand Games",
+      "images": [
+        {
+          "src": "img/sandGames1.jpg",
+          "alt": "Boys running on the beach"
+        },
+        {
+          "src": "img/sandGames3.jpg",
+          "alt": "People playing volleyball on the beach in the sunset"
+        },
+        {
+          "src": "img/sandcastle.jpg",
+          "alt": "Sandcastle"
+        }
+      ],
+      "description": "Sand games are the perfect beach activity for anyone who wants to have fun without getting in the water. Build towering sandcastles, challenge your friends to a game of volleyball or spikeball, or simply enjoy the warm sand beneath your feet. With the sound of waves crashing nearby and the sun shining overhead, you can enjoy all the excitement of the beach while staying safely on shore. It’s a great choice for people who don’t know how to swim, are nervous around the water, or simply prefer to keep their feet in the sand!",
+      "destinations": [
+        {
+          "name": "Rehoboth Beach, Delaware",
+          "details": "A quieter beach that has soft sand and allows for playing in the sand peacefully."
+        },
+        {
+          "name": "Huntington Beach, California",
+          "details": "This beach has a whole community of beach volleyball players. The weather is always nice in Southern California!"
+        },
+        {
+          "name": "Clearwater Beach, Florida",
+          "details": "Another family beach that includes soft white sand that encourages young ones to play in!"
+        }
+      ],
+      "extra": "These beaches all offer their own unique type of sand, creating different experiences depending on where you go. Rehoboth Beach, Delaware has soft, fine, tan colored sand that is easy to mold and perfect for sandcastles. Huntington Beach, California offers a coarser golden sand that stays firm under your feet, which makes it perfect for beach sports like volleyball. Clearwater Beach, Florida is known across the world for its powder soft, bright white sand that stays relatively cool, even on a hot day, which allows for a comfortable experience playing in it. Each place's sand adds to the experience."
+    },
+    {
+      "id": "water-skiing",
+      "category": "lake",
+      "title": "Water Skiing",
+      "images": [
+        {
+          "src": "img/waterSki.jpg",
+          "alt": "Guy water skiing."
+        },
+        {
+          "src": "img/waterSki2.jpg",
+          "alt": "A guy jumping into water with skis."
+        },
+        {
+          "src": "img/waterSki3.jpg",
+          "alt": "Boat pulling a person."
+        }
+      ],
+      "description": "Water skiing gives a thrill. You are being pulled across the water at high speeds. The best lake for this is ones that are large and have a lot of calm water. The calm water allows for a better experience on the skis.",
+      "destinations": [
+        {
+          "name": "Tappan Lake, Ohio"
+        },
+        {
+          "name": "Lake Travis, Texas"
+        },
+        {
+          "name": "Lake Placid, New York"
+        }
+      ],
+      "extra": "Water skiing is perfect for a thrill seeker. Lake Havasu’s warm desert climate keeps the water comfortable even outside of summer, making it a top spot for skiers. Lake Travis is known for its long stretches of calm water, giving skiers plenty of room to practice tricks or simply enjoy the ride. Lake Placid offers a completely different experience with its colder mountain air and beautiful scenery."
+    },
+    {
+      "id": "fishing",
+      "category": "lake",
+      "title": "Fishing",
+      "images": [
+        {
+          "src": "img/fishing.jpg",
+          "alt": "Picture of a fish."
+        },
+        {
+          "src": "img/fishing4.jpg",
+          "alt": "A guy fishing submerged in water."
+        },
+        {
+          "src": "img/fishing2.jpeg",
+          "alt": "My grandpa holding up a fish."
+        }
+      ],
+      "description": "Fishing at the lake is a peaceful way to enjoy the outdoors. It is a game of patience. Whether you decide to cast your reel from the shore or from a boat, you are sure to have a relaxing and refreshing experience. Lakes have many types of fish species like bass, trout and walleye. Most fishermen recommend early mornings and late summer nights to get the best catches.",
+      "destinations": [
+        {
+          "name": "Clear Lake, California"
+        },
+        {
+          "name": "Lake Michigan, Michigan"
+        },
+        {
+          "name": "Lake Guntersville, Alabama"
+        }
+      ],
+      "extra": "Fishing is a great way to connect with nature. Clear Lake in California has warm, nutrient-rich waters that bring in largemouth bass, channel catfish, and white crappie. Lake Michigan spreads far more than just Michigan. With this there are many different types of fish that come through, but the most sought after is the salmon and steelhead trout. Lake Guntersville holds many fishing competitions because it is known for its largemouth bass."
+    },
+    {
+      "id": "paddleboarding",
+      "category": "lake",
+      "title": "Paddleboarding",
+      "images": [
+        {
+          "src": "img/paddleBoard.jpg",
+          "alt": "Girl on a paddleboard in the middle of the water."
+        },
+        {
+          "src": "img/paddleBoard2.jpg",
+          "alt": "Two people on paddleboards."
+        },
+        {
+          "src": "img/paddleBoard4.jpg",
+          "alt": "Guy on a paddleboard with mountains in the background."
+        }
+      ],
+      "description": "Paddleboarding is a great way to get into nature. You get to glide across the water and admire the trees and mountains that surround the water. Warm summer days make paddleboarding a great activity because there often times is a breeze on the water.",
+      "destinations": [
+        {
+          "name": "Lake Tahoe, California/Nevada"
+        },
+        {
+          "name": "Lake Powell, Utah/Nevada"
+        },
+        {
+          "name": "Grand Teton National Park, Wyoming"
+        }
+      ],
+      "extra": "If you catch Lake Tahoe on a sunny day, you will find that the water is very clear and you can see the rocks and lakebed. Lake Powell offers views that can not be found anywhere else in the world. The canyons around reflect the rocks' orange and red tones. Grand Teton National Park offers a range of lakes within a close proximity. These lakes are surrounded by mountains for a jaw-dropping view."
+    },
+    {
+      "id": "cliff-jumping",
+      "category": "lake",
+      "title": "Cliff Jumping",
+      "images": [
+        {
+          "src": "img/cliffjumping.jpg",
+          "alt": "Kid jumping to water"
+        },
+        {
+          "src": "img/cliffjumping3.jpg",
+          "alt": "A guy jumping into water."
+        },
+        {
+          "src": "img/cliffjumping3.jpg",
+          "alt": "Guy jumping with kayak in the back."
+        }
+      ],
+      "description": "Cliff jumping is one of the most thrilling ways to enjoy a lake. Standing at the edge you can look down and see how far up you are. You can take in the view before you plunge. Cliff jumping is best done at lakes with clear water, known depths, and designated safe areas, making it both exciting and responsible.",
+      "destinations": [
+        {
+          "name": "Crater Lake, Oregon"
+        },
+        {
+          "name": "Lake Powell, Arizona/Nevada"
+        },
+        {
+          "name": "Red Rocks Park, Vermont"
+        }
+      ],
+      "extra": "Cliff jumping offers a unique way to explore lakes from a different perspective. Crater Lake’s deep blue water and dramatic cliffs make every jump feel like a cinematic moment. Lake Powell is famous for its warm water and towering red rock formations, giving cliff jumpers places to explore safely. Red Rocks Park in Vermont provides a more relaxed environment with smaller cliffs and calm water, perfect for beginners or anyone wanting a scenic jump. Each location offers its own style of adventure, making cliff jumping a memorable part of any lake trip."
+    },
+    {
+      "id": "hiking",
+      "category": "mountains",
+      "title": "Hiking",
+      "images": [
+        {
+          "src": "img/hiking1.jpg",
+          "alt": "People hiking."
+        },
+        {
+          "src": "img/hiking2.jpg",
+          "alt": "People hiking."
+        },
+        {
+          "src": "img/hiking3.jpg",
+          "alt": "People hiking."
+        }
+      ],
+      "description": "Hiking is one of the most peaceful and rewarding ways to enjoy the mountains. As you walk along the trails, you can hear birds echoing through the trees, feel the cool breeze at higher elevations, and see breathtaking views that stretch for miles. Hiking lets you explore waterfalls, wildflowers, wildlife, and scenic overlooks at your own pace. Whether you choose a short nature walk or a long summit trail, hiking brings you closer to the beauty of the outdoors.",
+      "destinations": [
+        {
+          "name": "Rocky Mountain National Park, Colorado"
+        },
+        {
+          "name": "Great Smoky Mountains, Tennessee/North Carolina"
+        },
+        {
+          "name": "Glacier National Park, Montana"
+        }
+      ],
+      "extra": "All these places offer amazing views of the mountains and nature below. They can be enjoyed in the winter or summer depending on your likings."
+    },
+    {
+      "id": "mountain-biking",
+      "category": "mountains",
+      "title": "Mountain Biking",
+      "images": [
+        {
+          "src": "img/biking1.jpg",
+          "alt": "Mountain biking."
+        },
+        {
+          "src": "img/biking2.jpg",
+          "alt": "Mountain biking."
+        },
+        {
+          "src": "img/biking3.jpg",
+          "alt": "Mountain biking."
+        }
+      ],
+      "description": "Mountain biking is an exciting way to explore rugged terrain and take in the beauty of the mountains. As you ride along winding trails, you feel the cool mountain air, hear the crunch of gravel beneath your tires, and see sweeping views that make every climb worth it. Whether you’re tackling steep paths or cruising through forested routes, mountain biking offers a thrilling mix of adventure and nature. Warm summer days and early fall weather make the experience even better, giving you clear skies and comfortable temperatures.",
+      "destinations": [
+        {
+          "name": "Moab, Utah"
+        },
+        {
+          "name": "Bentonville, Arkansas"
+        },
+        {
+          "name": "Pisgah National Forest, North Carolina"
+        }
+      ],
+      "extra": "All these places have locations where you can rent bikes and enjoy."
+    },
+    {
+      "id": "stargazing",
+      "category": "mountains",
+      "title": "Stargazing",
+      "images": [
+        {
+          "src": "img/stargazing1.jpg",
+          "alt": "Stars."
+        },
+        {
+          "src": "img/stargazing3.jpg",
+          "alt": "Stars."
+        },
+        {
+          "src": "img/stargazing2.jpg",
+          "alt": "Stars."
+        }
+      ],
+      "description": "Stargazing in the mountains is a magical experience. With high elevations and clear skies, the stars shine brighter than anywhere else. At night, the mountains become quiet and peaceful, letting you see constellations, shooting stars, and even the Milky Way stretching across the sky. The crisp mountain air and lack of city lights make stargazing feel calm, relaxing, and unforgettable.",
+      "destinations": [
+        {
+          "name": "Bryce Canyon National Park, Utah"
+        },
+        {
+          "name": "Big Bend National Park, Texas"
+        },
+        {
+          "name": "Mount Hood, Oregon"
+        }
+      ],
+      "extra": "All these places offer amazing views of the mountains and nature below. The less the light pollution the better. Being up in the mountains you are far away from any of the city life so you can see the stars amazingly."
+    },
+    {
+      "id": "archery",
+      "category": "mountains",
+      "title": "Archery",
+      "images": [
+        {
+          "src": "img/archery1.jpg",
+          "alt": "Archery."
+        },
+        {
+          "src": "img/archery2.jpg",
+          "alt": "Archery."
+        },
+        {
+          "src": "img/archery3.jpg",
+          "alt": "Archery."
+        }
+      ],
+      "description": "Archery in the mountains is a focused and peaceful activity that connects you with nature. As you draw back the bow, you feel the quiet stillness of the forest around you. The fresh mountain air, tall trees, and open spaces create the perfect environment for practicing aim and concentration. Whether you’re shooting at a range or a designated outdoor area, archery offers a calm yet exciting challenge.",
+      "destinations": [
+        {
+          "name": "Park City, Utah"
+        },
+        {
+          "name": "Bozeman, Montana"
+        },
+        {
+          "name": "Flagstaff, Arizona"
+        }
+      ],
+      "extra": "All these places have locations where you can rent, get lessons, etc. It is a great skill to learn."
+    },
+    {
+      "id": "rock-climbing",
+      "category": "desert",
+      "title": "Rock Climbing",
+      "images": [
+        {
+          "src": "img/climb1.jpg",
+          "alt": "Rock climbing."
+        },
+        {
+          "src": "img/climb2.jpg",
+          "alt": "Rock climbing."
+        },
+        {
+          "src": "img/climb3.jpg",
+          "alt": "Rock climbing."
+        }
+      ],
+      "description": "Rock climbing in the desert offers dramatic cliffs, warm sunshine, and breathtaking views from every angle. The desert’s unique rock formations create perfect climbing routes for beginners and experts alike. As you climb, you can feel the heat radiating from the rocks and see the vast desert stretching out below you. The quiet environment makes every climb feel peaceful, focused, and rewarding.",
+      "destinations": [
+        {
+          "name": "Red Rock Canyon, Nevada"
+        },
+        {
+          "name": "Joshua Tree National Park, California"
+        },
+        {
+          "name": "Smith Rock State Park, Oregon"
+        }
+      ],
+      "extra": "These places have amazing rock that would be amazing to visit."
+    },
+    {
+      "id": "atv",
+      "category": "desert",
+      "title": "ATV",
+      "images": [
+        {
+          "src": "img/atv1.jpg",
+          "alt": "ATV."
+        },
+        {
+          "src": "img/atv3.jpg",
+          "alt": "ATV."
+        },
+        {
+          "src": "img/atv2.jpg",
+          "alt": "ATV."
+        }
+      ],
+      "description": "ATV riding in the desert is a thrilling way to explore by rolling through sand dunes. As you speed across the warm desert ground, you can feel the hot desert sun and wind rushing past your face. The terrain changes constantly from soft sand to rocky paths giving every ride a mix of excitement and challenge. Desert ATV trails often stretch for miles, letting you enjoy the scenery.",
+      "destinations": [
+        {
+          "name": "Glamis Sand Dunes, California"
+        },
+        {
+          "name": "Moab, Utah"
+        },
+        {
+          "name": "Imperial Sand Dunes, Arizona"
+        }
+      ],
+      "extra": "The desert is an amazing place to zoom around in an ATV. These places have large open areas so you can drive wild."
+    },
+    {
+      "id": "bird-watching",
+      "category": "desert",
+      "title": "Bird Watching",
+      "images": [
+        {
+          "src": "img/bird1.jpg",
+          "alt": "Bird."
+        },
+        {
+          "src": "img/bird2.jpg",
+          "alt": "Bird."
+        },
+        {
+          "src": "img/bird3.jpg",
+          "alt": "Bird."
+        }
+      ],
+      "description": "Bird watching in the desert is surprisingly peaceful and full of life. Colorful birds perched on cacti, cliffs, and desert shrubs. Many desert birds have unique calls that echo across the open landscape. Whether you’re watching hummingbirds, hawks, or roadrunners, the desert offers a calm and beautiful environment for observing wildlife.",
+      "destinations": [
+        {
+          "name": "Saguaro National Park, Arizona"
+        },
+        {
+          "name": "Big Bend National Park, Texas"
+        },
+        {
+          "name": "Anza-Borrego Desert, California"
+        }
+      ],
+      "extra": "There are so many different types of birds. They have nice calls and beautiful colors."
+    },
+    {
+      "id": "canyons",
+      "category": "desert",
+      "title": "Canyons",
+      "images": [
+        {
+          "src": "img/canyon1.jpg",
+          "alt": "Canyon."
+        },
+        {
+          "src": "img/canyon2.jpg",
+          "alt": "Canyon."
+        },
+        {
+          "src": "img/canyon3.jpg",
+          "alt": "Canyon."
+        }
+      ],
+      "description": "Exploring desert canyons feels like stepping into another world. The tall canyon walls glow orange and red in the sunlight, and the narrow passages create cool, shaded areas perfect for walking and discovering hidden formations. Some canyons twist and turn like a maze, while others open into wide, breathtaking valleys. The quiet, echoing environment makes canyon exploring peaceful and unforgettable.",
+      "destinations": [
+        {
+          "name": "Antelope Canyon, Arizona"
+        },
+        {
+          "name": "Zion National Park, Utah"
+        },
+        {
+          "name": "Canyonlands National Park, Utah"
+        }
+      ],
+      "extra": "The desert is unlike anything else."
+    }
+  ]
+}
