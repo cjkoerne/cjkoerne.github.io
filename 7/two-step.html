@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Caroline Koerner">
+  <title>Explore Activities | Outdoor Vacation Spots</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body data-page="two-step">
+  <header class="site-header">
+    <h1>Explore Activities</h1>
+    <p>Choose a destination type, then choose an activity.</p>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="two-step.html" aria-current="page">Explore Activities</a>
+      <a href="static-data.html">Activity Information</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>Step 1: Choose a category</h2>
+      <label for="category-select">Outdoor environment</label>
+      <select id="category-select">
+        <option value="">Select a category</option>
+      </select>
+      <h2>Step 2: Choose an activity</h2>
+      <label for="activity-select">Activity</label>
+      <select id="activity-select" disabled>
+        <option value="">Choose a category first</option>
+      </select>
+      <p id="two-step-message" role="status" aria-live="polite">Choose a category to get started.</p>
+      <div id="activity-result" aria-live="polite"></div>
+      <p id="error-message" class="error-message" role="alert"></p>
+    </section>
+  </main>
+  <footer><p>Outdoor Vacation Spots and Activities</p></footer>
+</body>
+</html>
