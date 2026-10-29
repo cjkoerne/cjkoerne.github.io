@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Caroline Koerner">
+    <title>Outdoor Vacation Spots and Activities</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body data-page="home">
+    <header>
+        <h1>Outdoor Vacation Spots and Activities</h1>
+        <p>Explore the outdoors and find your next adventure!</p>
 
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="two-step.html">Explore Activities</a>
+            <a href="static-data.html">Activity Information</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Choose Your Outdoor Escape</h2>
+            <p>
+                Explore beaches, lakes, mountains, and deserts.
+                Discover activities and destinations for your next trip.
+            </p>
+
+            <p id="error-message" role="alert"></p>
+            <div id="categories" class="category-grid">
+                <p>Loading destinations...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Outdoor Vacation Spots and Activities</p>
+    </footer>
+
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAB2R4JaMLHZ8VEAyiaHUE33X0Xg4yu-jM",
+    authDomain: "project-login-b4558.firebaseapp.com",
+    projectId: "project-login-b4558",
+    storageBucket: "project-login-b4558.firebasestorage.app",
+    messagingSenderId: "446975076825",
+    appId: "1:446975076825:web:f2c0a5a405c07a188511c8",
+    measurementId: "G-Y8FXB5WF2P"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+  
+</body>
+</html>
