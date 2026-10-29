@@ -2,37 +2,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>CSCI 3054: Web Programming</title>
+    <meta charset="UTF-8">
     <meta name="author" content="Caroline Koerner">
-    <meta name="description" content="This is my page for CSCI 3054!">
-    <link rel="stylesheet" href="css.css">
-    <style>
-        body{
-            text-align: center;
-        }
-    </style>
+    <title>Outdoor Vacation Spots and Activities</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
-<body>
+<body data-page="home">
     <header>
-        <h1>CSCI 3054</h1>
-        <h2>Caroline Koerner</h2>
+        <h1>Outdoor Vacation Spots and Activities</h1>
+        <p>Explore the outdoors and find your next adventure!</p>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="two-step.html">Explore Activities</a>
+            <a href="static-data.html">Activity Information</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
-<main>
-    <section>
-        <h2>Course Projects</h2>
-        <div>
-            <a href="1/index.html">Project 1- Grimace Rules!</a><br>
-            <a href="2/index.html">Activity 2: Ole Miss!</a><br>
-            <a href="3/index.html">Project 2: The Outdoors</a><br>
-            <a href="4/project3index.html">Project 3: Static Website</a><br>
-            <a href= "5/index.html">Activity 4: Snowboarding</a><br>
-            <a href = "6/index.html"> Project 4: Interactive Site</a>
-        </div>
-    </section>
-</main>
-<footer>
-    <p> 2026 Caroline Koerner</p>
-</footer>
+
+    <main>
+        <section>
+            <h2>Choose Your Outdoor Escape</h2>
+            <p>
+                Explore beaches, lakes, mountains, and deserts.
+                Discover activities and destinations for your next trip.
+            </p>
+
+            <p id="error-message" role="alert"></p>
+            <div id="categories" class="category-grid">
+                <p>Loading destinations...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Outdoor Vacation Spots and Activities</p>
+    </footer>
 </body>
 </html>
+
