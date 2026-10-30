@@ -22,6 +22,28 @@
   <main>
     <section class="panel">
       <h2>Get in Touch</h2>
+      
+<div id="login-section">
+  <h3>Sign in to submit your message</h3>
+
+  <label for="login-email">Email</label>
+  <input type="email" id="login-email" required>
+
+  <label for="login-password">Password</label>
+  <input type="password" id="login-password" required>
+
+  <button type="button" id="signup-button">Create Account</button>
+  <button type="button" id="login-button">Log In</button>
+  <button type="button" id="google-button">Sign in with Google</button>
+
+  <p id="auth-message" role="status" aria-live="polite"></p>
+</div>
+
+<div id="user-section" hidden>
+  <p id="user-status"></p>
+  <button type="button" id="logout-button">Log Out</button>
+</div>
+
       <p>This form demonstrates collecting a visitor's interests. It does not send information to a server.</p>
       <form id="contact-form">
         <div class="form-field">
@@ -43,7 +65,7 @@
           <label for="message">Message (optional)</label>
           <textarea id="message" name="message" rows="4"></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" disabled>Submit</button>
       </form>
       <p id="form-message" role="status" aria-live="polite"></p>
     </section>
