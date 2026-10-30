@@ -1,6 +1,5 @@
 import { db } from "./firebase.js";
-import {
-  doc,
+import {doc,
   getDoc
 } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
 
@@ -39,10 +38,6 @@ function makeImage(src, alt) {
   const image = document.createElement("img");
   image.src = src;
   image.alt = alt || "";
-  image.loading = "lazy";
-  image.addEventListener("error", () => {
-    image.hidden = true;
-  });
   return image;
 }
 
