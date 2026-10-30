@@ -4,7 +4,8 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
-  onAuthStateChanged
+  onAuthStateChanged,
+  sendPasswordResetEmail
 } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-auth.js";
 
 import {
@@ -58,6 +59,23 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  document.querySelector("#reset-password-button").addEventListener("click", async () => {
+  const email = document.querySelector("#login-email").value;
+  const message = document.querySelector("#auth-message");
+
+  if (!email) {
+    message.textContent = "Please enter your email address first.";
+    return;
+  }
+
+  try {
+    await sendPasswordResetEmail(auth, email);
+    message.textContent = "Password reset email sent! Check your inbox.";
+  } catch (error) {
+    message.textContent = "Could not send reset email. " + error.message;
+  }
+});
+  
   document.querySelector("#logout-button").addEventListener("click", async () => {
     try {
       await signOut(auth);
