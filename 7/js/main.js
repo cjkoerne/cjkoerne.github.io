@@ -1,20 +1,36 @@
+import { db } from "./firebase.js";
+import {
+  doc,
+  getDoc
+} from "https://www.gstatic.com/firebasejs/12.5.0/firebase-firestore.js";
+
 async function loadActivities() {
   try {
-    const response = await fetch("activities.json");
-    if (!response.ok) {
-      throw new Error(`Request failed with status ${response.status}`);
+    const activityDocument = doc(db, "siteData", "activities");
+    const result = await getDoc(activityDocument);
+
+    if (!result.exists()) {
+      throw new Error("Activity data was not found in Firebase.");
     }
-    const data = await response.json();
-    if (!Array.isArray(data.categories) || !Array.isArray(data.activityDetails)) {
-      throw new Error("The JSON data is missing categories or activity details.");
+
+    const data = result.data();
+
+    if (!Array.isArray(data.categories) ||
+        !Array.isArray(data.activityDetails)) {
+      throw new Error("Firebase activity data is missing information.");
     }
+
     return data;
+
   } catch (error) {
-    console.error("Could not load activities.json:", error);
+    console.error("Could not load activity data:", error);
+
     const message = document.querySelector("#error-message");
+
     if (message) {
-      message.textContent = "Activity data could not be loaded. Please check that activities.json is in the same folder as this page and try refreshing.";
+      message.textContent = "Activity data could not be loaded. Please try again.";
     }
+
     return null;
   }
 }
